@@ -1,6 +1,5 @@
-# music_mobile_app
+# Music Playlist Application
 
-A new Flutter project.
 
 ## Getting Started
 
