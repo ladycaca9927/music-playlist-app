@@ -21,6 +21,7 @@ class MiniPlayer extends HookConsumerWidget {
       top: false,
       child: GestureDetector(
         onTap: () {
+          if (!context.mounted) return;
           context.push('/player');
         },
         child: Container(

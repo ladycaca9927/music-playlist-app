@@ -26,7 +26,7 @@ final selectedPlaylistProvider = StateProvider<Playlist?>((ref) => null);
 final isAudioLoadingProvider = StateProvider<bool>((ref) => false);
 
 final demoPlaylistsProvider = Provider<List<Playlist>>((ref) {
-  final songs = [Song(id: '1', title: 'SoundHelix Song 1', artist: 'SoundHelix', url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3', coverUrl: 'https://picsum.photos/300?1'), Song(id: '2', title: 'SoundHelix Song 2', artist: 'SoundHelix', url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3', coverUrl: 'https://picsum.photos/300?2'),Song(id: '3', title: 'Never let go', artist: 'NDA', url: 'https://prosearch.tribeofnoise.com/artists/show/77505/43374', coverUrl: 'https://picsum.photos/300?3')];
+  final songs = [Song(id: '1', title: 'SoundHelix Song 1', artist: 'SoundHelix', url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3', coverUrl: 'https://picsum.photos/300?1'), Song(id: '2', title: 'SoundHelix Song 2', artist: 'SoundHelix', url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3', coverUrl: 'https://picsum.photos/300?2'),Song(id: '3', title: 'Never let go', artist: 'NDA', url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3', coverUrl: 'https://picsum.photos/300?3')];
 
   return [Playlist(id: 'playlist_1', title: 'My Favorites', coverUrl: 'https://picsum.photos/500', songs: songs)];
 });
