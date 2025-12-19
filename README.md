@@ -37,4 +37,3 @@ Follow the steps below to run the application locally.
 ### Disclaimer
 
 This project uses demo / royalty-free music sources for development and testing only.
-Do not use proprietary music sources (e.g. YouTube, Spotify audio streams) without proper licensing.
