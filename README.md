@@ -7,9 +7,34 @@ This project is a Flutter music playlist application built with Riverpod (hooks_
 
 Follow the steps below to run the application locally.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Ensure the following are installed on your device:
+   - Flutter SDK (version 3.7.0 or later)
+   - Dart SDK
+   - Android Studio (for Android emulator) or any IDE
+   - Xcode 14+ (for IOS simulator)
+2. Install dependency
+   - flutter pub get
+3. IOS Setup (for IOS)
+    - cd ios
+    - pod install
+    - cd ..
+4. Run the application
+   - Run on the default connected devices
+     - flutter run
+   - List available devices
+     - flutter devices
+   - Run on specific device
+     - flutter run -d <device_id>
+   - Example: 
+     - flutter run -d ios
+       flutter run -d android
+5. If encounter issues
+   - flutter clean
+     flutter pub get
+     flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+### Disclaimer
+
+This project uses demo / royalty-free music sources for development and testing only.
+Do not use proprietary music sources (e.g. YouTube, Spotify audio streams) without proper licensing.
